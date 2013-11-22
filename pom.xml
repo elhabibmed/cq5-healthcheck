@@ -61,6 +61,17 @@
 		<module>app</module>
 		<module>sample-content</module>
 	</modules>
+	
+	<distributionManagement>
+		<repository>
+			<id>nissaneu</id>
+			<url>http://maven.digitas.fr:8081/nexus/content/repositories/nissaneu</url>
+		</repository>
+		<snapshotRepository>
+			<id>nissaneu-snapshots</id>
+			<url>http://maven.digitas.fr:8081/nexus/content/repositories/nissaneu-snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 	<repositories>
 		<repository>
